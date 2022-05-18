@@ -1,0 +1,315 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PV SCADA DASHBOARD</title>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/owl-carousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/owl-carousel/assets/owl.theme.default.css">
+    <!--<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+</head>
+<body>
+
+    <div class="ad">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 box-pad">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <nav class="menu">
+                                <ul>
+                                    <li> <a href="#" class="logo"><img class="img-fluid" src="assets/img/pv-scada-logo.svg" /></a></li>
+                                    <li> <div class="menu-sub"> <img class="img-fluid" src="assets/img/home.png" /> <a href="#"> Dashboard </a></div> </li>
+                                    <li> <div class="menu-sub"> <img class="img-fluid" src="assets/img/scada.png" /> <a href="#"> Scada </a></div> </li>
+                                    <li> <div class="menu-sub"> <img class="img-fluid" src="assets/img/solar-logger.png" /> <a href="#"> Solar Logger </a></div> </li>
+                                    <li> <div class="menu-sub"> <img class="img-fluid" src="assets/img/sayac.png" /> <a href="#"> Sayac </a></div> </li>
+                                    <li> <div class="menu-sub"> <img class="img-fluid" src="assets/img/rapor.png" /> <a href="#"> Rapor </a></div> </li>
+                                    <li> <div class="menu-sub"> <img class="img-fluid" src="assets/img/ihbar.png" /> <a href="#"> Ihbar </a></div> </li>
+                                </ul>
+                                <ul class="menu-bottom">
+                                    <li> <div class="menu-sub "> <img class="img-fluid" src="assets/img/alarm.png" /> <a href="#" class="alarm"> Alarm </a></div> </li>
+                                    <li> <div class="menu-sub"> <img class="img-fluid" src="assets/img/ayarlar.png" /> <a href="#"> Ayarlar </a></div> </li>
+                                    <li> <div class="menu-sub"> <img class="img-fluid" src="assets/img/user.png" /> <a href="#"> Hesap </a></div> </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="col-lg-9">
+                            <div class="box box-w-menu yenibox">
+                                <p class="box-one">
+                                    TESİSLER
+                                </p>
+                                <a href="#"><img class="box-one-resim2" src="assets/img/asagi-ok.png" /></a>
+                            </div>
+                            <div class="sub-box scroller trans box-w-menu yenibox">
+                                <div class="sliding-menu">
+                                    <a href="#">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-5 yuva-p"><img class="yuvarla-red" src="assets/img/tesis.png" alt="Resim"></div>
+                                                <div class="col-lg-7"><p class="yuva-text"> ÖBÇ GES</p></div>
+                                                <div class="old-ribbon"><img class="old-ribbon-img" src="assets/img/kirmizi-tik.png" />  2 <span> / 4</span> </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sliding-menu">
+                                    <a href="#">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-5 yuva-p"><img class="yuvarla-red" src="assets/img/tesis.png" alt="Resim"></div>
+                                                <div class="col-lg-7"><p class="yuva-text"> ÖBÇ GES</p></div>
+                                                <div class="old-ribbon"><img class="old-ribbon-img" src="assets/img/yesil-tik.png" /></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sliding-menu">
+                                    <a href="#">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-5 yuva-p"><img class="yuvarla-green" src="assets/img/tesis.png" alt="Resim"></div>
+                                                <div class="col-lg-7"><p class="yuva-text"> SARİVELİLER GES</p></div>
+                                                <div class="old-ribbon"><img class="old-ribbon-img" src="assets/img/yesil-tik.png" /></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sliding-menu">
+                                    <a href="#">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-5 yuva-p"><img class="yuvarla-green" src="assets/img/tesis.png" alt="Resim"></div>
+                                                <div class="col-lg-7"><p class="yuva-text"> SARİVELİLER GES</p></div>
+                                                <div class="old-ribbon"><img class="old-ribbon-img" src="assets/img/yesil-tik.png" /></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sliding-menu">
+                                    <a href="#">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-5 yuva-p"><img class="yuvarla-green" src="assets/img/tesis.png" alt="Resim"></div>
+                                                <div class="col-lg-7"><p class="yuva-text"> SARİVELİLER GES</p></div>
+                                                <div class="old-ribbon"><img class="old-ribbon-img" src="assets/img/yesil-tik.png" /></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sliding-menu">
+                                    <a href="#">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-5 yuva-p"><img class="yuvarla-green" src="assets/img/tesis.png" alt="Resim"></div>
+                                                <div class="col-lg-7"><p class="yuva-text"> SARİVELİLER GES</p></div>
+                                                <div class="old-ribbon"><img class="old-ribbon-img" src="assets/img/yesil-tik.png" /></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sliding-menu">
+                                    <a href="#">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-5 yuva-p"><img class="yuvarla-green" src="assets/img/tesis.png" alt="Resim"></div>
+                                                <div class="col-lg-7"><p class="yuva-text"> SARİVELİLER GES</p></div>
+                                                <div class="old-ribbon"><img class="old-ribbon-img" src="assets/img/yesil-tik.png" /></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sliding-menu">
+                                    <a href="#">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-5 yuva-p"><img class="yuvarla-green" src="assets/img/tesis.png" alt="Resim"></div>
+                                                <div class="col-lg-7"><p class="yuva-text"> SARİVELİLER GES</p></div>
+                                                <div class="old-ribbon"><img class="old-ribbon-img" src="assets/img/yesil-tik.png" /></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+         
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 box-pad">
+                    <div class="box">
+                        <p class="box-two"> SCADA </p>
+                        <img class="box-one-resim" src="assets/img/green-point.png" />
+                        <img class="box-img" src="assets/img/cizgi.png" />
+                    </div>
+                    <div class="sub-box">
+                        <div class="orta1">
+                            <div class="anlik-ribbona"> 123,67 kW</div>
+                            <h6 class="normalh6"><span> Anlık Güç Üretimi </span></h6>
+                            <img class="anlik-guc" src="assets/img/anlik-guc.gif" alt="">
+                        </div>
+                        <div class="orta2">
+                            <h6><span> Günlük Güç Üretimi </span></h6>
+                            <h5> 435,36 kWh </h5>
+                            <h6><span> Aylık Güç Üretimi </span></h6>
+                            <h5> 435,36 kWh </h5>
+                            <h6><span> Kurulu Güç </span></h6>
+                            <h5> 435,36 kWh </h5>
+
+                            <div class="son-haberlesme"> SON HABERLEŞME </div>
+                            <div class="son-haberlesme-date"> 09.07.2021 - 10:18:56 </div>
+                            <div class="kurulu"> 365 GÜN ÖNCE KURULDU </div>
+                            <div class="hemen-incele"> <a href="#">HEMEN İNCELE</a> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 box-pad">
+                    <div class="box">
+                        <p class="box-two"> SOLAR LOGGER </p>
+                        <img class="box-one-resim" src="assets/img/green-point.png" />
+                        <img class="box-img" src="assets/img/cizgi.png" />
+                    </div>
+                    <div class="sub-box">
+                        <div class="orta1">
+                            <div class="anlik-ribbona"> 123,67 kW</div>
+                            <h6 class="normalh6"><span> Anlık Güç Üretimi </span></h6>
+                            <img class="anlik-guc" src="assets/img/anlik-guc.gif" alt="">
+                        </div>
+                        <div class="orta2">
+                            <h6><span> Günlük Güç Üretimi </span></h6>
+                            <h5> 435,36 kWh </h5>
+                            <h6><span> Aylık Güç Üretimi </span></h6>
+                            <h5> 435,36 kWh </h5>
+                            <h6><span> Kurulu Güç </span></h6>
+                            <h5> 435,36 kWh </h5>
+
+                            <div class="son-haberlesme"> SON HABERLEŞME </div>
+                            <div class="son-haberlesme-date"> 09.07.2021 - 10:18:56 </div>
+                            <div class="kurulu"> 365 GÜN ÖNCE KURULDU </div>
+                            <div class="hemen-incele"> <a href="#">HEMEN İNCELE</a> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 box-pad">
+                    <div class="box">
+                        <p class="box-two"> SAYAÇ </p>
+                        <img class="box-one-resim" src="assets/img/green-point.png" />
+                        <img class="box-img" src="assets/img/cizgi.png" />
+                    </div>
+                    <div class="sub-box">
+                        <div class="orta1">
+                            <h6 class="normalh6"><span> Üretim Sayacı </span></h6>
+                            <img class="anlik-guc" src="assets/img/sayac-ust.png" alt="">
+                            <div class="container-fluid sayac-kisa">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div>
+                                            <p class="sk-sol"> Günlük Endeks: </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div>
+                                            <p class="sk-sag"> 1175,88 kW </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div>
+                                            <p class="sk-sol sk-sol2"> Aylık Endeks: </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div>
+                                            <p class="sk-sag sk-sol2"> 1175,88 kW </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container-fluid sayac-deger">
+                                <div class="row">
+                                    <div class="col-7">
+                                        <div>
+                                            <p class="d-sol"> INDÜKTIF ORAN </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-5">
+                                        <div>
+                                            <p class="d-sag-red"> % 99.9 </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-7">
+                                        <div>
+                                            <p class="d-sol dsol"> KAPASiTiF ORAN </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-5">
+                                        <div>
+                                            <p class="d-sag-green dsol">  % 99.9  </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-7 limit">
+                                        <p>  Limit Aşıldı ! </p>
+                                    </div>
+                                    <div class="col-5 limit">
+                                        <img src="assets/img/point.png" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="orta2">
+                            <h6><span> Tüketim Sayacı </span></h6>
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="sayac-o sayac-o-left">
+                                            <img src="assets/img/sayac-icon.png" />
+                                            <p> DUYGU HALI </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="sayac-o sayac-o-right">
+                                            <img src="assets/img/sayac-icon.png" />
+                                            <p> DUYGU HALI </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="sayac-o sayac-o-left">
+                                            <img src="assets/img/sayac-icon.png" />
+                                            <p> DUYGU HALI </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="sayac-o sayac-o-right">
+                                            <img src="assets/img/sayac-icon.png" />
+                                            <p> DUYGU HALI </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="son-haberlesme s2"> SON HABERLEŞME </div>
+                            <div class="son-haberlesme-date"> 09.07.2021 - 10:18:56 </div>
+                            <div class="kurulu"> 365 GÜN ÖNCE KURULDU </div>
+                            <div class="hemen-incele"> <a href="#">HEMEN İNCELE</a> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/owl-carousel/owl.carousel.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+</html>

@@ -1,0 +1,410 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PV SCADA SAYAÇ</title>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/owl-carousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/owl-carousel/assets/owl.theme.default.css">
+    <!--<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Nunito'>
+    <link rel="stylesheet" href="assets/gauge/dist/style.css">
+    <link rel="stylesheet" href="assets/gauge2/dist/style.css">
+
+</head>
+<body>
+    <div class="ad">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 box-pad">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <nav class="menu">
+                                <ul>
+                                    <li> <a href="#" class="logo"><img class="img-fluid" src="assets/img/pv-scada-logo.svg" /></a></li>
+                                    <li> <div class="menu-sub"> <img class="img-fluid" src="assets/img/home.png" /> <a href="#"> Dashboard </a></div> </li>
+                                    <li> <div class="menu-sub"> <img class="img-fluid" src="assets/img/scada.png" /> <a href="#"> Scada </a></div> </li>
+                                    <li> <div class="menu-sub"> <img class="img-fluid" src="assets/img/solar-logger.png" /> <a href="#"> Solar Logger </a></div> </li>
+                                    <li> <div class="menu-sub"> <img class="img-fluid" src="assets/img/sayac.png" /> <a href="#"> Sayac </a></div> </li>
+                                    <li> <div class="menu-sub"> <img class="img-fluid" src="assets/img/rapor.png" /> <a href="#"> Rapor </a></div> </li>
+                                    <li> <div class="menu-sub"> <img class="img-fluid" src="assets/img/ihbar.png" /> <a href="#"> Ihbar </a></div> </li>
+                                </ul>
+                                <ul class="menu-bottom">
+                                    <li> <div class="menu-sub "> <img class="img-fluid" src="assets/img/alarm.png" /> <a href="#" class="alarm"> Alarm </a></div> </li>
+                                    <li> <div class="menu-sub"> <img class="img-fluid" src="assets/img/ayarlar.png" /> <a href="#"> Ayarlar </a></div> </li>
+                                    <li> <div class="menu-sub"> <img class="img-fluid" src="assets/img/user.png" /> <a href="#"> Hesap </a></div> </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="col-lg-9">
+                            <div class="box box-w-menu yenibox">
+                                <p class="box-one">
+                                    SAYAÇLAR
+                                </p>
+                                <a href="#"><img class="box-one-resim2" src="assets/img/asagi-ok.png" /></a>
+                            </div>
+                            <div class="sub-box scroller trans box-w-menu yenibox">
+                                <div class="sliding-menu aktif">
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="col-lg-5 yuva-p"><img class="yuvarla-red" src="assets/img/tesis.png" alt="Resim"></div>
+                                            <div class="col-lg-7"><p class="yuva-text"> ÖBÇ GES</p></div>
+                                            <div class="old-ribbon"><img class="old-ribbon-img" src="assets/img/kirmizi-tik.png" />  2 <span> / 4</span> </div>
+
+                                            <div class="dropdown-content">
+                                                <div class="d-list secili"><a href="#"> - Anasayfa </a>  <img src="assets/img/sagok.png" /> </div>
+                                                <div class="d-list dmenudropdown">
+                                                    <a href="#" class="dmenudropbtn"> - Inverterler </a> <img src="assets/img/sagok.png" />
+                                                    <div class="dmenudropdown-content">
+                                                        <div><a href="#">Link 1</a></div>
+                                                        <div><a href="#">Link 1</a></div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-list"><a href="#"> - Analiz Raporlama </a> <img src="assets/img/sagok.png" /> </div>
+                                                <div class="d-list"><a href="#"> - Alarm </a> <img src="assets/img/sagok.png" /> </div>
+                                                <div class="d-list"><a href="#"> - Ayarlar </a> <img src="assets/img/sagok.png" /> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sliding-menu">
+                                    <a href="#">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-5 yuva-p"><img class="yuvarla-green" src="assets/img/tesis.png" alt="Resim"></div>
+                                                <div class="col-lg-7"><p class="yuva-text"> SARİVELİLER GES</p></div>
+                                                <div class="old-ribbon"><img class="old-ribbon-img" src="assets/img/yesil-tik.png" /></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sliding-menu">
+                                    <a href="#">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-5 yuva-p"><img class="yuvarla-green" src="assets/img/tesis.png" alt="Resim"></div>
+                                                <div class="col-lg-7"><p class="yuva-text"> SARİVELİLER GES</p></div>
+                                                <div class="old-ribbon"><img class="old-ribbon-img" src="assets/img/yesil-tik.png" /></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sliding-menu">
+                                    <a href="#">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-5 yuva-p"><img class="yuvarla-green" src="assets/img/tesis.png" alt="Resim"></div>
+                                                <div class="col-lg-7"><p class="yuva-text"> SARİVELİLER GES</p></div>
+                                                <div class="old-ribbon"><img class="old-ribbon-img" src="assets/img/yesil-tik.png" /></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sliding-menu">
+                                    <a href="#">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-5 yuva-p"><img class="yuvarla-green" src="assets/img/tesis.png" alt="Resim"></div>
+                                                <div class="col-lg-7"><p class="yuva-text"> SARİVELİLER GES</p></div>
+                                                <div class="old-ribbon"><img class="old-ribbon-img" src="assets/img/yesil-tik.png" /></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sliding-menu">
+                                    <a href="#">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-5 yuva-p"><img class="yuvarla-green" src="assets/img/tesis.png" alt="Resim"></div>
+                                                <div class="col-lg-7"><p class="yuva-text"> SARİVELİLER GES</p></div>
+                                                <div class="old-ribbon"><img class="old-ribbon-img" src="assets/img/yesil-tik.png" /></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sliding-menu">
+                                    <a href="#">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-lg-5 yuva-p"><img class="yuvarla-green" src="assets/img/tesis.png" alt="Resim"></div>
+                                                <div class="col-lg-7"><p class="yuva-text"> SARİVELİLER GES</p></div>
+                                                <div class="old-ribbon"><img class="old-ribbon-img" src="assets/img/yesil-tik.png" /></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+             
+             
+                </div>
+                <div class="col-lg-9 col-md-9 col-sm-12 box-pad">
+                    <div class="box usten">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-lg-2 usten2">
+                                    <div class="bver">
+                                        <p>TESİS ADI</p>
+                                        <span> RAYCHEM </span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 usten2">
+                                    <div class="bver">
+                                        <p>TESİS NO</p>
+                                        <span> 80312369 </span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 usten2">
+                                    <div class="bver">
+                                        <p>SAYAÇ MARKASI</p>
+                                        <span> MAKEL </span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 usten2">
+                                    <div class="bver">
+                                        <p>SAYAÇ ÇARPANI</p>
+                                        <span> 120 </span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 usten2">
+                                    <div class="bver">
+                                        <p>IP ADRESİ</p>
+                                        <span> 5.26.52.22 </span>
+                                    </div>
+
+                                </div>
+                                <div class="col-lg-2 usten2">
+                                    <div class="bver">
+                                        <p>Son Haberleşme</p>
+                                        <span> 09.12.2021 12:12:12 </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <div class="sayac-kutu">
+                                    <div class="sayac-kutu-icte">
+                                        ENDEKS BİLGİLERİ
+                                    </div>
+                                    <div class="sayac-kutu-orta">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <p> Bugün </p>
+                                                <p> Endeks </p>
+                                                <span>68,40 kW</span>
+                                                <hr />
+                                            </div>
+                                            <div class="col-6">
+                                                <p> Dün </p>
+                                                <p> Endeks </p>
+                                                <span>68,40 kW</span>
+                                                <hr />
+                                            </div>
+                                            <div class="col-6">
+                                                <p> Bugün </p>
+                                                <p> Fatura Bedeli </p>
+                                                <span> 12.487,57 TL </span>
+                                            </div>
+                                            <div class="col-6">
+                                                <p> Dün </p>
+                                                <p> Fatura Bedeli </p>
+                                                <span> 12.487,57 TL </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sayac-kutu-orta">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <p> Bugün </p>
+                                                <p> Endeks </p>
+                                                <span>68,40 kW</span>
+                                                <hr />
+                                            </div>
+                                            <div class="col-6">
+                                                <p> Dün </p>
+                                                <p> Endeks </p>
+                                                <span>68,40 kW</span>
+                                                <hr />
+                                            </div>
+                                            <div class="col-6">
+                                                <p> Bugün </p>
+                                                <p> Fatura Bedeli </p>
+                                                <span> 12.487,57 TL </span>
+                                            </div>
+                                            <div class="col-6">
+                                                <p> Dün </p>
+                                                <p> Fatura Bedeli </p>
+                                                <span> 12.487,57 TL </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sayac-kutu-orta">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <p> Bugün </p>
+                                                <p> Endeks </p>
+                                                <span>68,40 kW</span>
+                                                <hr />
+                                            </div>
+                                            <div class="col-6">
+                                                <p> Dün </p>
+                                                <p> Endeks </p>
+                                                <span>68,40 kW</span>
+                                                <hr />
+                                            </div>
+                                            <div class="col-6">
+                                                <p> Bugün </p>
+                                                <p> Fatura Bedeli </p>
+                                                <span> 12.487,57 TL </span>
+                                            </div>
+                                            <div class="col-6">
+                                                <p> Dün </p>
+                                                <p> Fatura Bedeli </p>
+                                                <span> 12.487,57 TL </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <div class="sayac-kutu2"> 
+                                    <div class="sayac-kutu2-icinde">
+                                        <div class="sayac-kutu2-icinde-icinde">
+                                            INDUKTÜF ORAN
+                                        </div>
+                                    </div>
+                                    <div class="sk1">
+                                        <div id="speedtest"> 
+                                            <svg id="gauge" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+                                            <path style="fill: #e31212;" d="M12.9,75.5c0.3,0.5,0.7,0.9,1,1.4l7.6-5.7c-0.3-0.4-0.5-0.7-0.8-1.1L12.9,75.5z" />
+                                            <path style="fill: #ea1f39; display: none;" d="M9.3,69.3c0.3,0.5,0.5,1,0.8,1.5l8.4-4.4c-0.2-0.4-0.4-0.8-0.6-1.2L9.3,69.3z" />
+                                            <path style="fill: #f12d60; display: none;" d="M6.7,62.4C6.9,62.9,7,63.5,7.2,64l9.1-3c-0.1-0.4-0.3-0.8-0.4-1.2L6.7,62.4z" />
+                                            <path style="fill: #f83c85; display: none;" d="M5.3,55.2c0,0.6,0.1,1.1,0.2,1.7l9.4-1.5c-0.1-0.4-0.1-0.9-0.2-1.3L5.3,55.2z" />
+                                            <path style="fill: #ff4ba8; display: none;" d="M5,47.9c0,0.6,0,1.1,0,1.7l9.5,0.1c0-0.5,0-0.9,0-1.4L5,47.9z" />
+                                            <path style="fill: #fb3eb2; display: none;" d="M5.9,40.7c-0.1,0.6-0.2,1.1-0.3,1.7L15,44c0.1-0.4,0.2-0.9,0.2-1.3L5.9,40.7z" />
+                                            <path style="fill: #f732bf; display: none;" d="M8,33.7c-0.2,0.5-0.4,1.1-0.6,1.6l9,3.1c0.1-0.4,0.3-0.9,0.5-1.3L8,33.7z" />
+                                            <path style="fill: #f226cd; display: none;" d="M11.2,27.1c-0.3,0.5-0.5,1-0.8,1.5l8.3,4.6c0.2-0.4,0.4-0.8,0.7-1.2L11.2,27.1z" />
+                                            <path style="fill: #ee1adc; display: none;" d="M15.5,21.2c-0.4,0.4-0.8,0.9-1.1,1.3l7.5,5.8c0.3-0.4,0.6-0.7,0.9-1.1L15.5,21.2z" />
+                                            <path style="fill: #ae19de; display: none;" d="M20.6,16c-0.5,0.3-0.9,0.7-1.3,1.1l6.5,7c0.3-0.3,0.6-0.6,1-0.9L20.6,16z" />
+                                            <path style="fill: #6618cd; display: none;" d="M26.4,11.7c-0.5,0.3-0.9,0.6-1.4,0.9l5.3,7.9c0.3-0.2,0.7-0.5,1-0.7L26.4,11.7z" />
+                                            <path style="fill: #2716bd; display: none;" d="M33,8.3c-0.6,0.2-1.1,0.5-1.6,0.7l3.9,8.7c0.4-0.2,0.9-0.4,1.3-0.6L33,8.3z" />
+                                            <path style="fill: #1537ac; display: none;" d="M39.9,6.1c-0.5,0.1-1.1,0.3-1.6,0.4l2.5,9.2c0.4-0.1,0.8-0.2,1.2-0.3L39.9,6.1z" />
+                                            <path style="fill: #2061c1; display: none;" d="M47.2,5.2c-0.6,0-1.1,0-1.7,0.1l0.9,9.4c0.4,0,0.9-0.1,1.3-0.1L47.2,5.2z" />
+                                            <path style="fill: #2c90d5; display: none;" d="M54.5,5.2c-0.6,0-1.1-0.1-1.7-0.1l-0.6,9.5c0.4,0,0.9,0.1,1.3,0.1L54.5,5.2z" />
+                                            <path style="fill: #3bc2ea; display: none;" d="M61.6,6.5c-0.5-0.1-1.1-0.3-1.6-0.4l-2.2,9.3c0.4,0.1,0.9,0.2,1.3,0.3L61.6,6.5z" />
+                                            <path style="fill: #4bf7ff; display: none;" d="M68.6,9C68,8.7,67.5,8.5,67,8.3l-3.6,8.8c0.4,0.2,0.8,0.3,1.2,0.5L68.6,9z" />
+                                            <path style="fill: #39f6d2; display: none;" d="M74.9,12.5c-0.4-0.3-0.9-0.6-1.4-0.9l-5,8.1c0.4,0.2,0.7,0.5,1.1,0.7L74.9,12.5z" />
+                                            <path style="fill: #28ed99; display: none;" d="M80.6,17c-0.5-0.4-0.9-0.7-1.3-1.1l-6.2,7.2c0.3,0.3,0.7,0.6,1,0.9L80.6,17z" />
+                                            <path style="fill: #19e55d; display: none;" d="M85.7,22.4c-0.4-0.4-0.7-0.9-1.1-1.3l-7.4,6.1c0.3,0.3,0.5,0.7,0.8,1L85.7,22.4z" />
+                                            <path style="fill: #0adc1e; display: none;" d="M89.6,28.6c-0.2-0.5-0.5-1-0.8-1.5L80.6,32c0.2,0.4,0.4,0.7,0.6,1.1L89.6,28.6z" />
+                                            <path style="fill: #0adc1e; display: none;" d="M92.5,35.3c-0.2-0.5-0.4-1.1-0.6-1.6l-8.8,3.4c0.2,0.4,0.3,0.8,0.5,1.2L92.5,35.3z" />
+                                            <path style="fill: #0adc1e; display: none;" d="M94.4,42.2c-0.1-0.5-0.2-1.1-0.3-1.6l-9.4,2c0.1,0.4,0.2,0.9,0.2,1.3L94.4,42.2z" />
+                                            <path style="fill: #0adc1e; display: none;" d="M95,47.8l-9.5,0.5c0,0.4,0,0.9,0,1.3l9.5-0.1C95,48.9,95,48.4,95,47.8z" />
+                                            <path style="fill: #0adc1e; display: none;" d="M94.5,56.8c0.1-0.5,0.1-1.1,0.2-1.7l-9.4-1c-0.1,0.4-0.1,0.9-0.2,1.3L94.5,56.8z" />
+                                            <path style="fill: #0adc1e; display: none;" d="M92.8,63.9c0.2-0.5,0.3-1,0.5-1.7l-9.1-2.6c-0.1,0.4-0.3,0.9-0.4,1.3L92.8,63.9z" />
+                                            <path style="fill: #0adc1e; display: none;" d="M90,70.7c0.2-0.5,0.5-1,0.8-1.5l-8.7-4.1c-0.2,0.4-0.4,0.8-0.6,1.2L90,70.7z" />
+                                            <path style="fill: #0adc1e; display: none;" d="M89.9,80.1c0.5-0.7,1-1.3,1.4-1.9l-12-8.2c-0.3,0.4-0.6,0.9-0.9,1.3L89.9,80.1z" />
+	                                    </svg>
+                                            <div id="gauge-label">0</div>
+                                        </div>
+                                    </div>
+                                    <h6><span> Günlük Güç Üretimi </span></h6>
+                                    <h5> 435,36 kWh </h5>
+                                    <h6><span> Günlük Güç Üretimi </span></h6>
+                                    <h5> 435,36 kWh </h5>
+                                    <h6><span> Günlük Güç Üretimi </span></h6>
+                                    <h5> 435,36 kWh </h5>
+                                    <h6><span> Günlük Güç Üretimi </span></h6>
+                                    <h5> 435,36 kWh </h5>
+                                    <h6><span> Günlük Güç Üretimi </span></h6>
+                                    <h5> 435,36 kWh </h5>
+                                    <h5> 435,36 kWh </h5>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <div class="sayac-kutu2">
+                                    <div class="sayac-kutu2-icinde">
+                                        <div class="sayac-kutu2-icinde-icinde">
+                                            KAPASiTiF ORAN
+                                        </div>
+                                    </div>
+                                    <div class="sk2">
+                                        <div id="speedtest2">
+                                            <svg id="gauge2" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+                                            <path style="fill: #e31212;" d="M12.9,75.5c0.3,0.5,0.7,0.9,1,1.4l7.6-5.7c-0.3-0.4-0.5-0.7-0.8-1.1L12.9,75.5z" />
+                                            <path style="fill: #ea1f39; display: none;" d="M9.3,69.3c0.3,0.5,0.5,1,0.8,1.5l8.4-4.4c-0.2-0.4-0.4-0.8-0.6-1.2L9.3,69.3z" />
+                                            <path style="fill: #f12d60; display: none;" d="M6.7,62.4C6.9,62.9,7,63.5,7.2,64l9.1-3c-0.1-0.4-0.3-0.8-0.4-1.2L6.7,62.4z" />
+                                            <path style="fill: #f83c85; display: none;" d="M5.3,55.2c0,0.6,0.1,1.1,0.2,1.7l9.4-1.5c-0.1-0.4-0.1-0.9-0.2-1.3L5.3,55.2z" />
+                                            <path style="fill: #ff4ba8; display: none;" d="M5,47.9c0,0.6,0,1.1,0,1.7l9.5,0.1c0-0.5,0-0.9,0-1.4L5,47.9z" />
+                                            <path style="fill: #fb3eb2; display: none;" d="M5.9,40.7c-0.1,0.6-0.2,1.1-0.3,1.7L15,44c0.1-0.4,0.2-0.9,0.2-1.3L5.9,40.7z" />
+                                            <path style="fill: #f732bf; display: none;" d="M8,33.7c-0.2,0.5-0.4,1.1-0.6,1.6l9,3.1c0.1-0.4,0.3-0.9,0.5-1.3L8,33.7z" />
+                                            <path style="fill: #f226cd; display: none;" d="M11.2,27.1c-0.3,0.5-0.5,1-0.8,1.5l8.3,4.6c0.2-0.4,0.4-0.8,0.7-1.2L11.2,27.1z" />
+                                            <path style="fill: #ee1adc; display: none;" d="M15.5,21.2c-0.4,0.4-0.8,0.9-1.1,1.3l7.5,5.8c0.3-0.4,0.6-0.7,0.9-1.1L15.5,21.2z" />
+                                            <path style="fill: #ae19de; display: none;" d="M20.6,16c-0.5,0.3-0.9,0.7-1.3,1.1l6.5,7c0.3-0.3,0.6-0.6,1-0.9L20.6,16z" />
+                                            <path style="fill: #6618cd; display: none;" d="M26.4,11.7c-0.5,0.3-0.9,0.6-1.4,0.9l5.3,7.9c0.3-0.2,0.7-0.5,1-0.7L26.4,11.7z" />
+                                            <path style="fill: #2716bd; display: none;" d="M33,8.3c-0.6,0.2-1.1,0.5-1.6,0.7l3.9,8.7c0.4-0.2,0.9-0.4,1.3-0.6L33,8.3z" />
+                                            <path style="fill: #1537ac; display: none;" d="M39.9,6.1c-0.5,0.1-1.1,0.3-1.6,0.4l2.5,9.2c0.4-0.1,0.8-0.2,1.2-0.3L39.9,6.1z" />
+                                            <path style="fill: #2061c1; display: none;" d="M47.2,5.2c-0.6,0-1.1,0-1.7,0.1l0.9,9.4c0.4,0,0.9-0.1,1.3-0.1L47.2,5.2z" />
+                                            <path style="fill: #2c90d5; display: none;" d="M54.5,5.2c-0.6,0-1.1-0.1-1.7-0.1l-0.6,9.5c0.4,0,0.9,0.1,1.3,0.1L54.5,5.2z" />
+                                            <path style="fill: #3bc2ea; display: none;" d="M61.6,6.5c-0.5-0.1-1.1-0.3-1.6-0.4l-2.2,9.3c0.4,0.1,0.9,0.2,1.3,0.3L61.6,6.5z" />
+                                            <path style="fill: #4bf7ff; display: none;" d="M68.6,9C68,8.7,67.5,8.5,67,8.3l-3.6,8.8c0.4,0.2,0.8,0.3,1.2,0.5L68.6,9z" />
+                                            <path style="fill: #39f6d2; display: none;" d="M74.9,12.5c-0.4-0.3-0.9-0.6-1.4-0.9l-5,8.1c0.4,0.2,0.7,0.5,1.1,0.7L74.9,12.5z" />
+                                            <path style="fill: #28ed99; display: none;" d="M80.6,17c-0.5-0.4-0.9-0.7-1.3-1.1l-6.2,7.2c0.3,0.3,0.7,0.6,1,0.9L80.6,17z" />
+                                            <path style="fill: #19e55d; display: none;" d="M85.7,22.4c-0.4-0.4-0.7-0.9-1.1-1.3l-7.4,6.1c0.3,0.3,0.5,0.7,0.8,1L85.7,22.4z" />
+                                            <path style="fill: #0adc1e; display: none;" d="M89.6,28.6c-0.2-0.5-0.5-1-0.8-1.5L80.6,32c0.2,0.4,0.4,0.7,0.6,1.1L89.6,28.6z" />
+                                            <path style="fill: #0adc1e; display: none;" d="M92.5,35.3c-0.2-0.5-0.4-1.1-0.6-1.6l-8.8,3.4c0.2,0.4,0.3,0.8,0.5,1.2L92.5,35.3z" />
+                                            <path style="fill: #0adc1e; display: none;" d="M94.4,42.2c-0.1-0.5-0.2-1.1-0.3-1.6l-9.4,2c0.1,0.4,0.2,0.9,0.2,1.3L94.4,42.2z" />
+                                            <path style="fill: #0adc1e; display: none;" d="M95,47.8l-9.5,0.5c0,0.4,0,0.9,0,1.3l9.5-0.1C95,48.9,95,48.4,95,47.8z" />
+                                            <path style="fill: #0adc1e; display: none;" d="M94.5,56.8c0.1-0.5,0.1-1.1,0.2-1.7l-9.4-1c-0.1,0.4-0.1,0.9-0.2,1.3L94.5,56.8z" />
+                                            <path style="fill: #0adc1e; display: none;" d="M92.8,63.9c0.2-0.5,0.3-1,0.5-1.7l-9.1-2.6c-0.1,0.4-0.3,0.9-0.4,1.3L92.8,63.9z" />
+                                            <path style="fill: #0adc1e; display: none;" d="M90,70.7c0.2-0.5,0.5-1,0.8-1.5l-8.7-4.1c-0.2,0.4-0.4,0.8-0.6,1.2L90,70.7z" />
+                                            <path style="fill: #0adc1e; display: none;" d="M89.9,80.1c0.5-0.7,1-1.3,1.4-1.9l-12-8.2c-0.3,0.4-0.6,0.9-0.9,1.3L89.9,80.1z" />
+	                                    </svg>
+                                            <div id="gauge-label2">0</div>
+                                        </div>
+                                    </div>
+                                    <h6><span> Günlük Güç Üretimi </span></h6>
+                                    <h5> 435,36 kWh </h5>
+                                    <h6><span> Günlük Güç Üretimi </span></h6>
+                                    <h5> 435,36 kWh </h5>
+                                    <h6><span> Günlük Güç Üretimi </span></h6>
+                                    <h5> 435,36 kWh </h5>
+                                    <h6><span> Günlük Güç Üretimi </span></h6>
+                                    <h5> 435,36 kWh </h5>
+                                    <h6><span> Günlük Güç Üretimi </span></h6>
+                                    <h5> 435,36 kWh </h5>
+                                    <h5> 435,36 kWh </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <!--<script src="assets/gauge/dist/script.js"></script>-->
+    <!--<script src="assets/gauge2/dist/script.js"></script>-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/owl-carousel/owl.carousel.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+</html>
